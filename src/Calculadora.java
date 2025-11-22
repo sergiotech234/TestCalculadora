@@ -1,5 +1,7 @@
 public class Calculadora {
+    //Creamos un constructor en el cual utilizaremos una excepcion
     public double calcular(int a, int b, String operacion) throws OperacionNoValidaException {
+        //Creamos un switch con las distintas opciones 
         switch (operacion) {
             case "Suma":
                 return a + b;
